@@ -14,7 +14,7 @@ Follow the official ROS 2 Jazzy installation guide here:
 
 After installation, type:
 
-(ros2)
+"ros2"
 If you see command not found, it means you still need to source your ROS environment.
 
 4️⃣ Install gedit to edit .bashrc
