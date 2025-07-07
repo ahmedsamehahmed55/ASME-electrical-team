@@ -66,7 +66,7 @@ As co-lead of the electrical team, my key responsibilities included:
 
 <p align="center">
   <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
-  <a href="https://github.com/yourusername/your-repo-name/tree/main/assets/gallery">📸 See More Photos</a>
+  <a href="2024-2025/assets/Sheet_1.png">📸 See More Photos</a>
 </p>
 
 Key components included:
