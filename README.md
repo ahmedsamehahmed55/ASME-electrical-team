@@ -60,6 +60,14 @@ As co-lead of the electrical team, my key responsibilities included:
 ## 🔌 Electrical System Architecture
 
 > *(Optional: Add a diagram or photo here showing the full electrical layout)*
+<p align="center">
+  <img src="assets/rover-demo.jpg" alt="Lunabotics Rover 2024" width="600"/>
+</p>
+
+<p align="center">
+  <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
+  <a href="https://github.com/yourusername/your-repo-name/tree/main/assets/gallery">📸 See More Photos</a>
+</p>
 
 Key components included:
 
