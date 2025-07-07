@@ -81,16 +81,13 @@ Key components included:
 
 ---
 
-## 💻 Technologies Used
+## 💻 CAN bus system
 
-- 🖥 Embedded C / C++  
-- 🧩 Arduino / STM32 / Teensy  
-- 📡 CAN Bus (Controller Area Network)  
-- 🛠 EasyEDA / KiCad for PCB design  
-- 📈 Logic analyzers and multimeters for debugging  
-- ⚙️ Git and GitHub for version control  
-- 📑 Documentation tools (Markdown, Google Docs, etc.)
+What is the CAN bus and why we need it ?
 
+Schematics
+
+Code..
 ---
 
 ## 💻 Motor drivers (Sabertooth)
