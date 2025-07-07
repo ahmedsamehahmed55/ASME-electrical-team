@@ -5,9 +5,6 @@ Overview
 motors and decisions for the gear box
 Presenting Circuit diagrams 
 some cad stuf
-Certainly! Below is your **README.md**-formatted version of the **Project Overview**. It's structured clearly for GitHub, using proper Markdown formatting and emojis to add visual appeal while keeping it professional:
-
----
 
 # 🚀 NASA Lunabotics 2024 – Electrical Subsystem
 
@@ -35,10 +32,6 @@ Our efforts were recognized with multiple awards:
 * 🏅 **Leaps and Bounds Award** – for significant improvements in systems engineering
 * 🥉 **3rd Place in Presentation and Demonstration**
 * ⚡ **Most Energy-Efficient Team**
-
----
-
-Let me know if you'd like to add:
 
 * A **diagram** or image of the electrical system
 * Sections for **Setup**, **Hardware List**, or **Team Credits**
