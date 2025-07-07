@@ -18,9 +18,9 @@ Welcome to the official repository for the electrical subsystem of the Universit
 - [Achievements](#achievements)  
 - [Responsibilities](#responsibilities)  
 - [Electrical System Architecture](#electrical-system-architecture)  
-- [Technologies Used](#technologies-used)  
+- [CAN bus](#CAN-bus)
 - [How to Run](#how-to-run)  
-- [Contributors](#contributors)  
+- [Motor drivers](#Motor-drivers)  
 - [License](#license)
 
 ---
