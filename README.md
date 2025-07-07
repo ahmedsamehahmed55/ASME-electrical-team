@@ -8,30 +8,90 @@ some cad stuf
 
 # 🚀 NASA Lunabotics 2024 – Electrical Subsystem
 
+Welcome to the official repository for the electrical subsystem of the University of Miami’s ASME Lunabotics team for the **2024 NASA Lunabotics Competition**.
+
+---
+
+## 📚 Table of Contents
+
+- [Project Overview](#project-overview)  
+- [Achievements](#achievements)  
+- [Responsibilities](#responsibilities)  
+- [Electrical System Architecture](#electrical-system-architecture)  
+- [Technologies Used](#technologies-used)  
+- [How to Run](#how-to-run)  
+- [Contributors](#contributors)  
+- [License](#license)
+
+---
+
 ## 📌 Project Overview
 
-This repository showcases my role as the **electrical co-lead** of the University of Miami’s **ASME Lunabotics team** for the **2024 NASA Lunabotics Competition** — a nationally recognized challenge that tasks university teams with designing and building autonomous lunar excavators capable of navigating and collecting regolith in a simulated lunar environment.
+This project highlights my role as the **electrical co-lead** of the University of Miami’s **ASME Lunabotics team** for the **2024 NASA Lunabotics Competition** — a nationally recognized challenge that tasks university teams with designing and building autonomous lunar excavators capable of navigating and collecting regolith in a simulated lunar environment.
 
 Without hesitation, the **2024 season marked a pivotal turning point** for our team. We built multiple subsystems entirely from scratch, including the complete **electrical subsystem**.
 
-As co-lead of the electrical team, I was responsible for:
+We prioritized **simplicity and reliability**, focusing on minimizing points of failure while ensuring robust performance in harsh simulated lunar conditions. The rover operated flawlessly during competition.
 
-* ⚡ Designing and implementing the rover’s electrical architecture
-* 🔌 Power distribution system design
-* 🧠 Motor driver selection and integration
-* 📡 Sensor interfacing and real-time data communication
-* 🛠️ PCB design and hardware testing
-* 🛜 Implementing **CAN communication** between subsystems
-
-We prioritized **simplicity and reliability**, keeping the system as robust and streamlined as possible. Our focus on minimizing points of failure and applying systems engineering principles led to a highly functional rover with no major issues during the competition.
+---
 
 ## 🏆 Achievements
 
-Our efforts were recognized with multiple awards:
+- 🏅 **Leaps and Bounds Award** – For significant improvements in systems engineering  
+- 🥉 **3rd Place in Presentation and Demonstration**  
+- ⚡ **Most Energy-Efficient Team**
 
-* 🏅 **Leaps and Bounds Award** – for significant improvements in systems engineering
-* 🥉 **3rd Place in Presentation and Demonstration**
-* ⚡ **Most Energy-Efficient Team**
+---
+
+## 🛠 Responsibilities
+
+As co-lead of the electrical team, my key responsibilities included:
+
+- ⚡ Designing and implementing the rover’s electrical architecture  
+- 🔋 Power distribution and battery management  
+- 🧠 Motor driver selection and integration  
+- 📡 Sensor interfacing and real-time data communication  
+- 🛜 CAN communication between microcontrollers and subsystems  
+- 🛠 PCB design, prototyping, and testing  
+- 🔎 Debugging and ensuring system reliability in field conditions
+
+---
+
+## 🔌 Electrical System Architecture
+
+> *(Optional: Add a diagram or photo here showing the full electrical layout)*
+
+Key components included:
+
+- 12V Li-ion Battery Pack  
+- Custom PCBs with regulated 5V/3.3V rails  
+- CAN Bus topology for subsystem communication  
+- Motor drivers (e.g., BTS7960 or others)  
+- Microcontroller (e.g., STM32 / Arduino / Teensy)  
+- Sensors: IMU, encoders, limit switches, voltage/current monitors
+
+---
+
+## 💻 Technologies Used
+
+- 🖥 Embedded C / C++  
+- 🧩 Arduino / STM32 / Teensy  
+- 📡 CAN Bus (Controller Area Network)  
+- 🛠 EasyEDA / KiCad for PCB design  
+- 📈 Logic analyzers and multimeters for debugging  
+- ⚙️ Git and GitHub for version control  
+- 📑 Documentation tools (Markdown, Google Docs, etc.)
+
+---
+
+## ▶️ How to Run
+
+> _Instructions for replicating or simulating the system (if applicable)._
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/nasa-lunabotics-2024-electrical.git
+
 
 * A **diagram** or image of the electrical system
 * Sections for **Setup**, **Hardware List**, or **Team Credits**
