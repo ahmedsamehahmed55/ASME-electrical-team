@@ -64,7 +64,7 @@ As co-lead of the electrical team, my key responsibilities included:
   <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
-  <img src="2024-2025/assets/Circuits/Sheet_2.png" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
