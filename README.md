@@ -95,6 +95,21 @@ Key components included:
 
 ## 💻 Motor drivers (Sabertooth)
 
+To test the motors, we wrote a script using the `pysabertooth` library. Each Sabertooth was initialized with a unique address. This script demonstrates safe testing under current limitations and includes logic for bidirectional control.
+
+### 🔧 Sample Code Snippet
+
+```python
+from pysabertooth import Sabertooth
+
+# Initialize Sabertooth motor driver on address 128
+motor1 = Sabertooth("/dev/serial0", baudrate=9600, address=128)
+motor1.open()
+motor1.drive(1, 60)  # Drive motor 1 at 60% power
+motor1.drive(2, 60)  # Drive motor 2 at 60% power
+```
+
+👉 View the full motor test script [here](scripts/lunabotics_motor_test.py)
 
 
 <p align="center">
