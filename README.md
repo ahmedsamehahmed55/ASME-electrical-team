@@ -114,7 +114,7 @@ motor1.drive(1, 60)  # Drive motor 1 at 60% power
 motor1.drive(2, 60)  # Drive motor 2 at 60% power
 ```
 
-👉 View the full motor test script [here](scripts/lunabotics_motor_test.py)
+👉 View the full motor test script [here](Main codes/motor_testing.py)
 
 
 ---
