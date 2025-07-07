@@ -93,6 +93,15 @@ Key components included:
 
 ---
 
+## 💻 Motor drivers (Sabertooth)
+
+
+
+<p align="center">
+  <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
+</p>
+---
+
 ## ▶️ How to Run
 
 > _Instructions for replicating or simulating the system (if applicable)._
