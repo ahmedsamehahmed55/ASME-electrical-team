@@ -116,7 +116,7 @@ motor1.drive(2, 60)  # Drive motor 2 at 60% power
 
 
 <p align="center">
-  <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 ---
 
