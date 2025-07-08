@@ -72,9 +72,10 @@ What is the CAN bus and why we need it ?
 
 The Controller Area Network (CAN) bus is a communication protocol designed for real-time data exchange between electronic devices over a single pair of wires called CAN LOW and the other called CAN HI. Unlike traditional point-to-point serial communication, CAN uses a multi-master architecture where each node (or device) can transmit and receive messages without a central host. Messages are prioritized by IDs, enabling critical data to take precedence during high-traffic periods. CAN also includes error-checking mechanisms like CRC and automatic retransmission, ensuring communication integrity even in electrically noisy environments.  In our rover, the CAN bus linked the **Raspberry Pi** to multiple** Raspberry Pi Pico**, enabling efficient communication of data from sensors and motor encoders. We used CAN bus to reduce the computational load on the main microcontroller, allowing us to distribute this load on multiple nodes. In addition, the CAN bus allowed us to reduce the wire complexity. We used the CAN module **MCP2515** that communicates with the microcontrollers via the SPI and then sends the data through the CAN H and CAN L wires.
 
-Schematics
+<p align="center">
+  <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
+</p>
 
-Code..
 ---
 
 ## 💻 Motor drivers (Sabertooth)
