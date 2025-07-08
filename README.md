@@ -61,15 +61,6 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
   <a href="2024-2025/assets/">📸 See More Photos</a>
 </p>
 
-Key components included:
-
-- 12V Li-ion Battery Pack  
-- Custom PCBs with regulated 5V/3.3V rails  
-- CAN Bus topology for subsystem communication  
-- Motor drivers (e.g., BTS7960 or others)  
-- Microcontroller (e.g., STM32 / Arduino / Teensy)  
-- Sensors: IMU, encoders, limit switches, voltage/current monitors
-
 ---
 
 ## 💻 CAN bus system
