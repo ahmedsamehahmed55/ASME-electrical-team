@@ -44,14 +44,6 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 
 ---
 
-## 🔌Electric Architecture
-<p align="center">
-  <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
-</p>
-
----
-
-
 ## 🔌 The rover
 <p align="center">
   <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
@@ -62,6 +54,16 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 </p>
 
 ---
+
+## 🔌Electric Architecture
+<p align="center">
+  <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
+</p>
+
+---
+
+
+
 
 ## 💻 CAN bus system
 
