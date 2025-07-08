@@ -76,7 +76,7 @@ The Controller Area Network (CAN) bus is a communication protocol designed for r
   <img src="2024-2025/assets/Circuits/Sheet_4.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
-  <img src="22024-2025/assets/rover/20250702_094913.heic" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="2024-2025/assets/rover/20250702_094913.heic" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b>CAN bus circuit</b><br>
