@@ -44,11 +44,7 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 ---
 
 
-## 🔌 Our rover
-
-<p align="center">
-  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
-</p>
+## 🔌 The rover
 <p align="center">
   <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
