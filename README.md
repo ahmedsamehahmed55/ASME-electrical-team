@@ -43,21 +43,8 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 
 ---
 
-## 🛠 Responsibilities
 
-As co-lead of the electrical team, my key responsibilities included:
-
-- ⚡ Designing and implementing the rover’s electrical architecture  
-- 🔋 Power distribution and battery management  
-- 🧠 Motor driver selection and integration  
-- 📡 Sensor interfacing and real-time data communication  
-- 🛜 CAN communication between microcontrollers and subsystems  
-- 🛠 PCB design, prototyping, and testing  
-- 🔎 Debugging and ensuring system reliability in field conditions
-
----
-
-## 🔌 Electrical System Architecture
+## 🔌 Our rover
 
 <p align="center">
   <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
