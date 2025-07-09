@@ -125,19 +125,22 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 
 ---
 
-## 📝 Full Code with detailed instructions on how to run to the code
-
-👉 **[Click here to view the full code](CAN%20code)**
-
----
-
 ## ✅ Tips
 
 - Use `loopback=True` first to test.
 - When connecting to a real CAN bus, set `loopback=False` and `silent=False`.
 - Make sure SPI pins match your Pico’s pinout.
 
+
 ---
+
+## 📝 Full Code with detailed instructions on how to run to the code
+
+👉 **[Click here to view the full code](CAN%20code)**
+
+---
+
+
 ---
 
 ## 💻 Motor drivers (Sabertooth)
