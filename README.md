@@ -59,7 +59,9 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 <p align="center">
   <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
-
+<p align="center">
+  <b> Full simplified circuit</b>
+  </p>
 ---
 
 
