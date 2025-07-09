@@ -80,8 +80,66 @@ The Controller Area Network (CAN) bus is a communication protocol designed for r
   <b>CAN bus circuit</b><br>
   <a href="2024-2025/assets/Circuits"> See the complete CAN circuits</a>
 </p>
+## 🧩 Hardware Setup
 
+This section covers how to connect the MCP2515 and the encoder to the Raspberry Pi Pico.
 
+### 🔌 Wiring
+#### MCP2515 → Pico
+
+| MCP2515 Pin | Pico Pin |
+|-------------|-----------|
+| MOSI        | GP19      |
+| SCK         | GP18      |
+| MISO        | GP16      |
+| CS          | GP17      |
+| VCC         | 3V3       |
+| GND         | GND       |
+
+#### Encoder → Pico
+
+| Encoder Pin | Pico Pin |
+|-------------|-----------|
+| 3V          | 3.3V      |
+| 5V          | 5V        |
+| Pin3        | N.C.      |
+| Pin4        | N.C.      |
+| B           | GP15      |
+| Pin6        | N.C.      |
+| A           | GP14      |
+| Pin8        | N.C.      |
+| Pin9        | N.C.      |
+| GND         | GND       |
+
+## 📦 Dependencies
+
+- [Adafruit_CircuitPython_BusDevice](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice)
+- [Adafruit_CircuitPython_MCP2515](https://github.com/adafruit/Adafruit_CircuitPython_MCP2515)
+
+---
+
+## ⚙️ How It Works
+
+- Reads encoder positions.
+- Sends encoder counts over the CAN bus with message IDs `0x500` and `0x501`.
+- Can also read incoming CAN messages and display them.
+- Uses `loopback` mode by default for safe testing without a second CAN node.
+
+---
+
+## 📝 Full Code
+
+👉 **[Click here to view the full code](./main.py)**
+
+---
+
+## ✅ Tips
+
+- Use `loopback=True` first to test.
+- When connecting to a real CAN bus, set `loopback=False` and `silent=False`.
+- Make sure SPI pins match your Pico’s pinout.
+
+---
 ---
 
 ## 💻 Motor drivers (Sabertooth)
