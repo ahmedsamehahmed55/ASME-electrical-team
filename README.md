@@ -121,7 +121,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 | VCC         | 3.3V               |
 | GND         | GND                |
 
----
+
 
 ## ✅ Tips
 
@@ -130,9 +130,8 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 - Make sure SPI pins match your Pico’s pinout.
 
 
----
 
-## 📝 Full Code with detailed instructions on how to run
+## 📝 Full CAN bus Code with detailed instructions on how to run
 
 👉 **[Click here](CAN%20code)**
 
