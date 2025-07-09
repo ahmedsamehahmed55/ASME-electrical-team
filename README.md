@@ -132,7 +132,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 
 ---
 
-## 📝 Full Code with detailed instructions on how to run to the code
+## 📝 Full Code with detailed instructions on how to run
 
 👉 **[Click here](CAN%20code)**
 
