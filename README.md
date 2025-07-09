@@ -164,6 +164,41 @@ motor1.drive(2, 60)  # Drive motor 2 at 60% power
 
 ---
 
+## 💻 Motor drivers (BTS7960)
+One of the challenges we faced was the voltage incompatibility between the **Raspberry Pi**, which operates at 3.3V logic, and the Sabertooth motor driver, which requires 5V logic for reliable serial communication. In the 2023 competition, the team addressed this issue by routing control signals through an **Arduino**, which acted as a 5V buffer. While this worked, it introduced unnecessary complexity and potential communication delays. To make the system simpler and reduce the points of failure, we transitioned to using compact **bi-directional logic level converters (BSS138)**, allowing us to safely and efficiently shift the 3.3V signals up to 5V. This solution maintained signal integrity and enabled direct communication between the Pi and the Sabertooth.
+
+<p align="center">
+  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
+</p>
+
+### 🔧 Sample Code Snippet
+The dip swithches
+
+
+
+To test the motors, we wrote a script using the `pysabertooth` library. Each Sabertooth was initialized with a unique address. This script demonstrates safe testing under current limitations and includes logic for bidirectional control.
+
+### 🔧 Sample Code Snippet
+
+```python
+from pysabertooth import Sabertooth
+
+# Initialize Sabertooth motor driver on address 128
+motor1 = Sabertooth("/dev/serial0", baudrate=9600, address=128)
+motor1.open()
+motor1.drive(1, 60)  # Drive motor 1 at 60% power
+motor1.drive(2, 60)  # Drive motor 2 at 60% power
+```
+
+👉 View the full motor test script [here](Main%20codes/motor_testing.py)
+
+
+---
+
+
+
+
+
 ## ▶️ How to Run
 
 > _Instructions for replicating or simulating the system (if applicable)._
