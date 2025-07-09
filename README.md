@@ -111,6 +111,32 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 | Pin9        | N.C.      |
 | GND         | GND       |
 
+## MCP2515 → Pi 4
+
+| MCP2515 Pin | Raspberry Pi 4 Pin |
+|-------------|--------------------|
+| CS          | GPIO8 (CE0)        |
+| MOSI        | GPIO10 (MOSI)      |
+| SCK         | GPIO11 (SCLK)      |
+| MISO        | GPIO21 (MISO)      |
+| INT         | GPIO25             |
+| VCC         | 3.3V               |
+| GND         | GND                |
+
+---
+
+### 📦 Dependencies
+
+- `canutils`  
+- `python-can`
+
+---
+
+### ⚙️ Setup Instructions
+
+1. **Add overlay to enable MCP2515 driver**  
+   Edit `/boot/firmware/config.txt` and add:  
+
 ## 📦 Dependencies
 
 - [Adafruit_CircuitPython_BusDevice](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice)
