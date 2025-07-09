@@ -125,35 +125,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 
 ---
 
-### 📦 Dependencies
-
-- `canutils`  
-- `python-can`
-
----
-
-### ⚙️ Setup Instructions
-
-1. **Add overlay to enable MCP2515 driver**  
-   Edit `/boot/firmware/config.txt` and add:  
-
-## 📦 Dependencies
-
-- [Adafruit_CircuitPython_BusDevice](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice)
-- [Adafruit_CircuitPython_MCP2515](https://github.com/adafruit/Adafruit_CircuitPython_MCP2515)
-
----
-
-## ⚙️ How It Works
-
-- Reads encoder positions.
-- Sends encoder counts over the CAN bus with message IDs `0x500` and `0x501`.
-- Can also read incoming CAN messages and display them.
-- Uses `loopback` mode by default for safe testing without a second CAN node.
-
----
-
-## 📝 Full Code
+## 📝 Full Code with detailed instructions on how to run to the code
 
 👉 **[Click here to view the full code](CAN%20code)**
 
