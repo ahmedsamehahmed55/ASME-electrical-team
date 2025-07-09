@@ -62,10 +62,8 @@ We prioritized **simplicity and reliability**, focusing on minimizing points of 
 <p align="center">
   <b> Full simplified circuit</b>
   </p>
+
 ---
-
-
-
 
 ## 💻 CAN bus system
 
