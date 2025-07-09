@@ -80,6 +80,7 @@ The Controller Area Network (CAN) bus is a communication protocol designed for r
   <b>CAN bus circuit</b><br>
   <a href="2024-2025/assets/Circuits"> See the complete CAN circuits</a>
 </p>
+
 ## 🧩 Hardware Setup
 
 This section covers how to connect the MCP2515 and the encoder to the Raspberry Pi Pico.
