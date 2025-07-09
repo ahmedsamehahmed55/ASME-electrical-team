@@ -155,7 +155,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 
 ## 📝 Full Code
 
-👉 **[Click here to view the full code](2024-2025/assets/CAN20%code)**
+👉 **[Click here to view the full code]("2024-2025/CAN code")**
 
 ---
 
