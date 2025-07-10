@@ -223,8 +223,8 @@ If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and V
 
 This project was completed under the direct supervision and mentoring of Russel Roberts, a third-year PhD student studying Physics at the University of Miami. Special thanks for the guidance, expertise, and support provided throughout the development and testing process of this project.
 
-## 🙏2026 Season Plan 
+##  🎯2026 Season Plan 
 We finalzied the season plan for 2026 for the electric subsystem with detialed performace analysis for each part we used in the electrical system and proposed improvemnt.
 
-**[Click here to access the 2026 season plan]([Main%20codes/Actuator.py](https://www.overleaf.com/read/gmnmmjygcdmp#dd8f39))**
+**[Click here to access the 2026 season plan](https://www.overleaf.com/read/gmnmmjygcdmp#dd8f39)**
 
