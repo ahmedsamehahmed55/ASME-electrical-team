@@ -219,7 +219,7 @@ The BTS7960 is a high-power H-bridge motor driver module capable of driving DC m
 
 If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and VCC to be high, and then you can easily control the speed of the actuator by the PWM from only two pins from the PI.
 
-**[Click here to access the test script to run the actuators using H-bridge motor driver](Main codes/Actuator.py)**
+**[Click here to access the test script to run the actuators using H-bridge motor driver](Main%20codes/Actuator.py)**
 
 * A **diagram** or image of the electrical system
 * Sections for **Setup**, **Hardware List**, or **Team Credits**
