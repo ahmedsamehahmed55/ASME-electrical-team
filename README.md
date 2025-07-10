@@ -147,7 +147,6 @@ One of the challenges we faced was the voltage incompatibility between the **Ras
 
 <p align="center">
   <b>ٍSabertooth and H-bridge motor driver </b><br>
-  <a href="2024-2025/assets/Circuits"> See the complete CAN circuits</a>
 </p>
 
 ### Sabertooth 2x12 Motor Driver Configuration
