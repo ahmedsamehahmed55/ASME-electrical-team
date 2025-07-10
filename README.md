@@ -17,7 +17,7 @@ Welcome to the official repository for the electrical subsystem of the Universit
 - [Acknowledgement](#acknowledgement)
 ---
 
-## 📌 Project Overview
+## 📌Project Overview
 
 This project highlights main work done by the electrical team of the University of Miami’s **ASME Lunabotics** for the **2024 NASA Lunabotics Competition** — a nationally recognized challenge that tasks university teams with designing and building autonomous lunar excavators capable of navigating and collecting regolith in a simulated lunar environment.
 
@@ -26,7 +26,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ---
 
-## 🏆 Achievements
+## 🏆Achievements
 
 - 🏅 **Leaps and Bounds Award** – For significant improvements in the application of systems engineering. 
 - 🥉 **3rd Place in Presentation and Demonstration**  
@@ -35,7 +35,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ---
 
-## 🔌 The Rover
+## 🤖The Rover
 <p align="center">
   <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
@@ -46,7 +46,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ---
 
-## 🔌Electric Architecture
+## ⚡Electric Architecture
 <p align="center">
   <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
@@ -134,7 +134,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 ---
 
 
-## 💻 Motor drivers (Sabertooth 2x12)
+## 🧩Motor drivers (Sabertooth 2x12)
 The Sabertooth 2x12 is a versatile, dual-channel motor driver designed to control two DC motors with up to 12 A continuous current per channel. It supports multiple control modes, including analog, radio control (RC), and serial communication.
 ### You can not plug the Raspberry pi directly to the Sabertooth.
 One of the challenges we faced was the voltage incompatibility between the **Raspberry Pi**, which operates at 3.3V logic, and the Sabertooth motor driver, which requires 5V logic for reliable serial communication. In the 2023 competition, the team addressed this issue by routing control signals through an **Arduino**, which acted as a 5V buffer. While this worked, it introduced unnecessary complexity and potential communication delays. To make the system simpler and reduce the points of failure, we transitioned to using compact **bi-directional logic level converters (BSS138)**, allowing us to safely and efficiently shift the 3.3V signals up to 5V. This solution maintained signal integrity and enabled direct communication between the Pi and the Sabertooth.
@@ -189,7 +189,7 @@ motor1.drive(2, 60)  # Drive motor 2 at 60% power
 
 ---
 
-## 💻Motor drivers (BTS7960)
+## 🧩Motor drivers (BTS7960)
 
 The BTS7960 is a high-power H-bridge motor driver module capable of driving DC motors with currents up to 43A. This motor driver support speed and direction control via PWM signals. These drivers had beem used to control the linear actuators. 
 <p align="center">
