@@ -52,7 +52,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
   <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
-  <b> Full simplified circuit</b>
+  <b> Full Simplified Circuit</b>
   </p>
   
   <p align="center">
@@ -72,7 +72,7 @@ The Controller Area Network (CAN) bus is a communication protocol designed for r
 </p>
 <p align="center">
   <b>CAN bus circuit</b><br>
-  <a href="2024-2025/assets/Circuits"> See the complete CAN circuits</a>
+  <a href="2024-2025/assets/Circuits"> See The complete CAN Circuits</a>
 </p>
 
 ## 🧩 Hardware Setup
@@ -145,7 +145,7 @@ One of the challenges we faced was the voltage incompatibility between the **Ras
 </p>
 
 <p align="center">
-  <b>Sabertooth and H-bridge motor driver </b><br>
+  <b>Sabertooth and H-bridge Motor Drivers Circuit Schematics </b><br>
 </p>
 
 ### Sabertooth 2x12 Motor Driver Configuration
@@ -198,7 +198,7 @@ The BTS7960 is a high-power H-bridge motor driver module capable of driving DC m
 </p>
 
 <p align="center">
-  <b> Sabertooth and H-bridge motor drivers circuit schematics </b><br>
+  <b> Sabertooth and H-bridge Motor Drivers Circuit Schematics </b><br>
 </p>
 
 | **Pin Name**    | **Description**                                   |
