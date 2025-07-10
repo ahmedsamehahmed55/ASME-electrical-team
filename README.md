@@ -197,8 +197,7 @@ The BTS7960 is a high-power H-bridge motor driver module capable of driving DC m
 </p>
 
 <p align="center">
-  <b>ٍSabertooth and H-bridge motor driver </b><br>
-  <a href="2024-2025/assets/Circuits"> See the complete CAN circuits</a>
+  <b> Sabertooth and H-bridge motor drivers circuit schematics </b><br>
 </p>
 
 | **Pin Name**    | **Description**                                   |
