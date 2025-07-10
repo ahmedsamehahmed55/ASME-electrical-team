@@ -55,7 +55,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
   </p>
   
   <p align="center">
-  <b>CAN bus circuit</b><br>
+ <br>
   <a href="2024-2025/assets/Circuits"> Click here to view the full detailed schematics </a>
 </p>
 
