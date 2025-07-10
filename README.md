@@ -149,7 +149,7 @@ One of the challenges we faced was the voltage incompatibility between the **Ras
 
 ### Sabertooth 2x12 Motor Driver Configuration
 
-This explains how to set up the **Sabertooth 2x12** motor driver for **packetized serial mode** with default DIP switch settings and configurable address bits.
+To reduce the wiring complexity, the serial mode was used. This explains how to set up the **Sabertooth 2x12** motor driver for **packetized serial mode** with default DIP switch settings and configurable address bits.
 
 📄 [Official Sabertooth 2x12 Datasheet (PDF)](https://www.dimensionengineering.com/datasheets/Sabertooth2x12.pdf)
 
