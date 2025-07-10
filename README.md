@@ -221,8 +221,6 @@ If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and V
 
 **[Click here to access the test script to run the actuators using H-bridge motor driver](Main%20codes/Actuator.py)**
 
-* A **diagram** or image of the electrical system
-* Sections for **Setup**, **Hardware List**, or **Team Credits**
-* A **"Tech Stack"** or component list (e.g., Arduino, CAN transceivers, motor drivers, etc.)
+# Acknowledgement 
 
-I'm happy to build out the full `README.md` with more sections if you'd like!
+This project was completed under the direct supervision and mentoring of Russel Roberts, a third-year PhD student studying Physics at the University of Miami. Special thanks for the guidance, expertise, and support provided throughout the development and testing process of this project.
