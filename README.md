@@ -46,7 +46,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ---
 
-## ⚡Electric Architecture
+## ⚡Electrical System Architecture
 <p align="center">
   <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
