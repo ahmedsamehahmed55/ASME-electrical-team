@@ -189,7 +189,7 @@ motor1.drive(2, 60)  # Drive motor 2 at 60% power
 
 ---
 
-## 💻 Motor drivers (BTS7960)
+## 💻Motor drivers (BTS7960)
 
 The BTS7960 is a high-power H-bridge motor driver module capable of driving DC motors with currents up to 43A. This motor driver support speed and direction control via PWM signals. These drivers had beem used to control the linear actuators. 
 <p align="center">
