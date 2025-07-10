@@ -11,11 +11,10 @@ Welcome to the official repository for the electrical subsystem of the Universit
 - [Achievements](#achievements)  
 - [ The Rover](#The-Rover)  
 - [Electrical System Architecture](#electrical-system-architecture)  
-- [CAN bus](#CAN-bus)
-- [How to Run](#how-to-run)  
-- [Motor drivers](#Motor-drivers)  
-- [License](#license)
-
+- [CAN Bus System](#CAN-Bus-System)
+- [Motor drivers (Sabertooth 2x12)](#Motor-drivers-(Sabertooth-2x12))
+- [Motor drivers (BTS7960)](#Motor-Drivers-(BTS7960))
+- [Acknowledgement](#Acknowledgement)  
 ---
 
 ## 📌 Project Overview
@@ -135,7 +134,7 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 ---
 
 
-## 💻 Motor drivers (Sabertooth)
+## 💻 Motor drivers (Sabertooth 2x12)
 One of the challenges we faced was the voltage incompatibility between the **Raspberry Pi**, which operates at 3.3V logic, and the Sabertooth motor driver, which requires 5V logic for reliable serial communication. In the 2023 competition, the team addressed this issue by routing control signals through an **Arduino**, which acted as a 5V buffer. While this worked, it introduced unnecessary complexity and potential communication delays. To make the system simpler and reduce the points of failure, we transitioned to using compact **bi-directional logic level converters (BSS138)**, allowing us to safely and efficiently shift the 3.3V signals up to 5V. This solution maintained signal integrity and enabled direct communication between the Pi and the Sabertooth.
 
 <p align="center">
@@ -218,6 +217,6 @@ If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and V
 
 **[Click here to access the test script to run the actuators using H-bridge motor driver](Main%20codes/Actuator.py)**
 
-# Acknowledgement 
+#🙏 Acknowledgement 
 
 This project was completed under the direct supervision and mentoring of Russel Roberts, a third-year PhD student studying Physics at the University of Miami. Special thanks for the guidance, expertise, and support provided throughout the development and testing process of this project.
