@@ -12,7 +12,7 @@ Welcome to the official repository for the electrical subsystem of the Universit
 - [The Rover](#the-rover)  
 - [Electrical System Architecture](#electrical-system-architecture)  
 - [CAN Bus System](#can-bus-system)  
-- [Motor drivers (Sabertooth 2x12)](#motor-drivers-sabertooth-2x12)  
+- [Motor drivers (Sabertooth 2x12)](#motor-drivers-sabertooth-2x12)
 - [Motor drivers (BTS7960)](#motor-drivers-bts7960)  
 - [Acknowledgement](#acknowledgement)
 ---
