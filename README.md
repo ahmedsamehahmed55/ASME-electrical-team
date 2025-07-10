@@ -145,9 +145,32 @@ One of the challenges we faced was the voltage incompatibility between the **Ras
   <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 
-To test the motors, we wrote a script using the `pysabertooth` library. Each Sabertooth was initialized with a unique address. This script demonstrates safe testing under current limitations and includes logic for bidirectional control.
+### Sabertooth 2x12 Motor Driver Configuration
 
-### 🔧 Sample Code Snippet
+This explains how to set up the **Sabertooth 2x12** motor driver for **packetized serial mode** with default DIP switch settings and configurable address bits.
+
+📄 [Official Sabertooth 2x12 Datasheet (PDF)](https://www.dimensionengineering.com/datasheets/Sabertooth2x12.pdf)
+
+
+### ✅ Fixed DIP Switch Settings (#1–#3)
+
+Always make sure the first three DIP switches are set as follows:
+
+| Switch | Position | Purpose                   |
+|:------:|:--------:|---------------------------|
+| 1      | DOWN     | Serial mode enabled       |
+| 2      | DOWN     | Baud rate set to 9600 bps |
+| 3      | UP       | Address bit (fixed)       |
+
+
+### 🔄 Configurable DIP Switches (#4–#6)
+
+Use switches **#4–#6** to set the **serial address**.  
+These switches work together with Switch #3 (which is always UP) to define the final address. The documentation above has detailed configration for these switches.
+
+### 🔧 Sample code for testing
+
+To test the motors, we wrote a script using the `pysabertooth` library. Each Sabertooth was initialized with a unique address. This script demonstrates safe testing under current limitations and includes logic for bidirectional control.
 
 ```python
 from pysabertooth import Sabertooth
