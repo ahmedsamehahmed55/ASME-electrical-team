@@ -219,6 +219,6 @@ If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and V
 
 **[Click here to access the test script to run the actuators using H-bridge motor driver](Main%20codes/Actuator.py)**
 
-#🙏 Acknowledgement 
+##🙏 Acknowledgement 
 
 This project was completed under the direct supervision and mentoring of Russel Roberts, a third-year PhD student studying Physics at the University of Miami. Special thanks for the guidance, expertise, and support provided throughout the development and testing process of this project.
