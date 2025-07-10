@@ -28,7 +28,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ## 🏆 Achievements
 
-- 🏅 **Leaps and Bounds Award** – For significant improvements in the systems engineering  
+- 🏅 **Leaps and Bounds Award** – For significant improvements in the application of systems engineering. 
 - 🥉 **3rd Place in Presentation and Demonstration**  
 - ⚡ **Most Energy-Efficient Team**
 
