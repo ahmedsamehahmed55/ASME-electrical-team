@@ -224,7 +224,7 @@ If you want to reduce the wiring complexity, you can just PULL L_EN, R_EN, and V
 This project was completed under the direct supervision, direct contribution, and mentoring of Russel Roberts, a third-year PhD student studying Physics at the University of Miami. Special thanks for the guidance, expertise, and support provided throughout the development and testing process of this project.
 
 ##  🎯2025 Season Plan 
-We finalzied the season plan for 2026 for the electric subsystem with detialed performace analysis for each part we used in the electrical system and proposed improvemnt.
+We finalized the season plan for 2026 for the electrical subsystem with detailed performance analysis for each part we used in the electrical system and proposed improvement.
 
 **[Click here to access the 2025 season plan](https://www.overleaf.com/read/gmnmmjygcdmp#dd8f39)**
 
