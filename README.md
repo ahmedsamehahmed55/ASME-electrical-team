@@ -63,7 +63,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 ---
 
 ## 💻 CAN Bus System
----
+
 
 The Controller Area Network (CAN) bus is a communication protocol designed for real-time data exchange between electronic devices over a single pair of wires called CAN LOW and the other called CAN HI. Unlike traditional point-to-point serial communication, CAN uses a multi-master architecture where each node (or device) can transmit and receive messages without a central host. Messages are prioritized by IDs, enabling critical data to take precedence during high-traffic periods. CAN also includes error-checking mechanisms like CRC and automatic retransmission, ensuring communication integrity even in electrically noisy environments.  In our rover, the CAN bus linked the **Raspberry Pi** to multiple **Raspberry Pi Pico**, enabling efficient communication of data from sensors and motor encoders. We used CAN bus to reduce the computational load on the main microcontroller, allowing us to distribute this load on multiple nodes. In addition, the CAN bus allowed us to reduce the wire complexity. We used the CAN module **MCP2515** that communicates with the microcontrollers via the SPI and then sends the data through the CAN H and CAN L wires. Note: In this configration, we used the CAN classic 2.0 with data rate of 500 kbit/s.
 
@@ -74,13 +74,13 @@ The Controller Area Network (CAN) bus is a communication protocol designed for r
   <b>CAN bus circuit</b><br>
   <a href="2024-2025/assets/Circuits"> See The complete CAN Circuits</a>
 </p>
-
-## 🧩 Hardware Setup
 ---
+## 🧩 Hardware Setup
+
 This section covers how to connect the MCP2515 and the encoder to the Raspberry Pi Pico.
 
 ### 🔌 Wiring
----
+
 #### MCP2515 → Pico
 
 | MCP2515 Pin | Pico Pin |
@@ -137,11 +137,11 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 
 
 # 🧩Motor drivers (Sabertooth 2x12)
----
-The Sabertooth 2x12 is a versatile, dual-channel motor driver designed to control two DC motors with up to 12 A continuous current per channel. It supports multiple control modes, including analog, radio control (RC), and serial communication.
 
-## You can not plug the Raspberry pi directly to the Sabertooth !! 
+The Sabertooth 2x12 is a versatile, dual-channel motor driver designed to control two DC motors with up to 12 A continuous current per channel. It supports multiple control modes, including analog, radio control (RC), and serial communication.
 ---
+## You can not plug the Raspberry pi directly to the Sabertooth !! 
+
 
 One of the challenges we faced was the voltage incompatibility between the **Raspberry Pi**, which operates at 3.3V logic, and the Sabertooth motor driver, which requires 5V logic for reliable serial communication. In the 2023 competition, the team addressed this issue by routing control signals through an **Arduino**, which acted as a 5V buffer. While this worked, it introduced unnecessary complexity and potential communication delays. To make the system simpler and reduce the points of failure, we transitioned to using compact **bi-directional logic level converters (BSS138)**, allowing us to safely and efficiently shift the 3.3V signals up to 5V. This solution maintained signal integrity and enabled direct communication between the Pi and the Sabertooth.
 
@@ -154,7 +154,7 @@ One of the challenges we faced was the voltage incompatibility between the **Ras
 </p>
 
 ### Sabertooth 2x12 Motor Driver Configuration
----
+
 
 To reduce the wiring complexity, the serial mode was used. This explains how to set up the **Sabertooth 2x12** motor driver for **packetized serial mode** with default DIP switch settings and configurable address bits.
 
@@ -162,7 +162,7 @@ To reduce the wiring complexity, the serial mode was used. This explains how to 
 
 
 ### ✅ Fixed DIP Switch Settings (#1–#3)
----
+
 
 Always make sure the first three DIP switches are set as follows:
 
