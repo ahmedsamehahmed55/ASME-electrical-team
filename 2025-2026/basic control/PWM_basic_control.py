@@ -12,7 +12,8 @@ import math
 # Pick your pin here:
 # GPIO12 or GPIO18 → PWM0
 # GPIO13 or GPIO19 → PWM1
-# gpiozero uses the hardware PWM when you choose these GPIOs. Hardware PWM is more precise than the sofware one
+# gpiozero uses the hardware PWM when you choose these GPIOs. 
+#Use pigpio for Hardware PWM
 led = PWMLED(12)  
 
 print("Fading LED... CTRL+C to stop.")
