@@ -119,22 +119,30 @@ This section covers how to connect the MCP2515 and the encoder to the Raspberry 
 | VCC         | 3.3V               |
 | GND         | GND                |
 
-🧩 Raspberry Pi MCP2515 Setup
+# 🧩 Raspberry Pi MCP2515 Setup
+
 This guide details how to configure a Raspberry Pi to work with an MCP2515 CAN controller module by editing the system configuration file.
 
-1. Edit the System Config File
-First, open the /boot/firmware/config.txt file using a text editor with root privileges. This file controls the low-level hardware settings loaded on boot.
+---
 
-Bash
+## 1. Edit the System Config File
 
+First, open the `/boot/firmware/config.txt` file by the following command in terminal.
+
+```bash
 sudo nano /boot/firmware/config.txt
-2. Add Overlay Configuration
-Next, append the following lines to the end of the config.txt file. This tells the Pi to enable the SPI interface and load the necessary driver for the MCP2515 chip.
+```
 
-⚠️ Important: The oscillator value must match the crystal on your specific MCP2515 module. Common values are 8000000 (8 MHz) and 16000000 (16 MHz). The interrupt value must match the GPIO pin you connected to the module's INT pin.
+## 2. Add Overlay Configuration
 
-Ini, TOML
+Next, copy and paste these lines to the end of the `config.txt` file. This tells the Pi to enable the SPI interface and load the necessary driver for the MCP2515 chip.
 
+⚠️ **Important:**
+
+- The `oscillator` value must match the crystal on your specific MCP2515 module. Common values are `8000000` (8 MHz) and `16000000` (16 MHz). You can find this value printed on the crystal of your MCP2515 module.
+- The `interrupt` value must match the GPIO pin you connected to the module's `INT` pin.
+
+```ini
 # --- MCP2515 CAN Bus Configuration ---
 # 1. Enable the SPI bus
 dtparam=spi=on
@@ -143,13 +151,6 @@ dtparam=spi=on
 #    - oscillator: Frequency of the crystal on your module (e.g., 8MHz)
 #    - interrupt:  The GPIO pin connected to the INT pin of the module
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25
-3. Reboot the System
-Finally, save the file and reboot your Raspberry Pi for the new hardware configuration to take effect.
-
-Bash
-
-sudo reboot
-After rebooting, the can0 network interface should be available.
 
 ## ✅ Tips
 
