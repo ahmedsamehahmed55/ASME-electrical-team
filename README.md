@@ -149,9 +149,7 @@ dtparam=spi=on
 dtoverlay=mcp2515-can0,oscillator=8000000,interrupt=25
 ```
 
-# 2. Add the MCP2515 overlay
-#    - oscillator: Frequency of the crystal on your module (e.g., 8MHz)
-#    - interrupt:  The GPIO pin connected to the INT pin of the module
+
 
 ## ✅ Tips
 
