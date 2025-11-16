@@ -21,10 +21,15 @@ This repository documents the design, implementation, and testing of the roverâ€
 
 <p align="center">
   <img src="2025-2026/Assets/High voltage archeticture.png" alt="High Voltage Electrical Architecture" width="600"/>
+  <p align="center">
+  <b> High Voltage Electrical Architecture </b>
+  </p>
 </p>
 ---
 <p align="center">
   <img src="2025-2026/Assets/Control archeticture.png" alt="Control Electrical Architecture" width="600"/>
 </p>
-
+  <p align="center">
+  <b> Control Electrical Architecture </b>
+  </p>
 
