@@ -22,7 +22,7 @@ Welcome to the official repository for the electrical subsystem of the Universit
 
 This project highlights main work done by the electrical team of the University of Miami’s **ASME Lunabotics** for the **2024 NASA Lunabotics Competition** — a nationally recognized challenge that tasks university teams with designing and building autonomous lunar excavators capable of navigating and collecting regolith in a simulated lunar environment.
 
-Without hesitation, the **2024 season marked a pivotal turning point** for the team. We built multiple subsystems entirely from scratch, including the complete **electrical subsystem**.
+Without hesitation, the **2025 season marked a pivotal turning point** for the team. We built multiple subsystems entirely from scratch, including the complete **electrical subsystem**.
 In the design process, we prioritized **simplicity and reliability**, focusing on minimizing points of failure while ensuring high performance in harsh simulated lunar conditions. 
 
 ---
@@ -41,7 +41,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
   <img src="assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
-  <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
+  <b>NASA Lunabotics 2025 – Fully Assembled Rover</b><br>
   <a href="assets/">📸 See More Photos</a>
 </p>
 
