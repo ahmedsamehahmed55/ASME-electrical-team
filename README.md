@@ -32,4 +32,8 @@ This repository documents the design, implementation, and testing of the roverâ€
   <p align="center">
   <b> Control Electrical Architecture </b>
   </p>
+---
+##  ðŸŽ¯2026 Season Plan 
+We finalized the season plan for 2026 for the electrical subsystem with detailed performance analysis for each part we used in the electrical system and proposed improvement.
 
+**[Click here to access the 2025 season plan](https://www.overleaf.com/read/gmnmmjygcdmp#dd8f39)**
