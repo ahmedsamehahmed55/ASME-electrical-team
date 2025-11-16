@@ -25,7 +25,7 @@ This repository documents the design, implementation, and testing of the roverâ€
   <b> High Voltage Electrical Architecture </b>
   </p>
 </p>
----
+
 <p align="center">
   <img src="2025-2026/Assets/Control archeticture.png" alt="Control Electrical Architecture" width="600"/>
 </p>
