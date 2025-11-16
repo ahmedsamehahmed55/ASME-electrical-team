@@ -38,7 +38,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ## 🤖The Rover
 <p align="center">
-  <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
@@ -68,11 +68,11 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 The Controller Area Network (CAN) bus is a communication protocol designed for real-time data exchange between electronic devices over a single pair of wires called CAN LOW and the other called CAN HI. Unlike traditional point-to-point serial communication, CAN uses a multi-master architecture where each node (or device) can transmit and receive messages without a central host. Messages are prioritized by IDs, enabling critical data to take precedence during high-traffic periods. CAN also includes error-checking mechanisms like CRC and automatic retransmission, ensuring communication integrity even in electrically noisy environments.  In our rover, the CAN bus linked the **Raspberry Pi** to multiple **Raspberry Pi Pico**, enabling efficient communication of data from sensors and motor encoders. We used CAN bus to reduce the computational load on the main microcontroller, allowing us to distribute this load on multiple nodes. In addition, the CAN bus allowed us to reduce the wire complexity. We used the CAN module **MCP2515** that communicates with the microcontrollers via the SPI and then sends the data through the CAN H and CAN L wires. Note: In this configration, we used the CAN classic 2.0 with data rate of 500 kbit/s.
 
 <p align="center">
-  <img src="2024-2025/assets/Circuits/Sheet_4.png" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/Circuits/Sheet_4.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b>CAN bus circuit</b><br>
-  <a href="2024-2025/assets/Circuits"> See The complete CAN Circuits</a>
+  <a href="assets/Circuits"> See The complete CAN Circuits</a>
 </p>
 ---
 ## 🧩 Hardware Setup
@@ -176,7 +176,7 @@ The Sabertooth 2x12 is a versatile, dual-channel motor driver designed to contro
 One of the challenges we faced was the voltage incompatibility between the **Raspberry Pi**, which operates at 3.3V logic, and the Sabertooth motor driver, which requires 5V logic for reliable serial communication. In the 2023 competition, the team addressed this issue by routing control signals through an **Arduino**, which acted as a 5V buffer. While this worked, it introduced unnecessary complexity and potential communication delays. To make the system simpler and reduce the points of failure, we transitioned to using compact **bi-directional logic level converters (BSS138)**, allowing us to safely and efficiently shift the 3.3V signals up to 5V. This solution maintained signal integrity and enabled direct communication between the Pi and the Sabertooth.
 
 <p align="center">
-  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 
 <p align="center">
@@ -232,7 +232,7 @@ motor1.drive(2, 60)  # Drive motor 2 at 60% power
 ---
 The BTS7960 is a high-power H-bridge motor driver module capable of driving DC motors with currents up to 43A. This motor driver support speed and direction control via PWM signals. These drivers had beem used to control the linear actuators. 
 <p align="center">
-  <img src="2024-2025/assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/Circuits/Motors.png" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 
 <p align="center">
