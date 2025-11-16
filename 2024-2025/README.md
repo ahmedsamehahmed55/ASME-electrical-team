@@ -42,14 +42,14 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 </p>
 <p align="center">
   <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
-  <a href="2024-2025/assets/">📸 See More Photos</a>
+  <a href="assets/">📸 See More Photos</a>
 </p>
 
 ---
 
 ## ⚡Electrical System Architecture
 <p align="center">
-  <img src="2024-2025/assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/Circuits/image.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b> Full Simplified Circuit</b>
@@ -57,7 +57,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
   
   <p align="center">
  <br>
-  <a href="2024-2025/assets/Circuits"> Click here to view the full detailed schematics </a>
+  <a href="assets/Circuits"> Click here to view the full detailed schematics </a>
 </p>
 
 ---
