@@ -1,5 +1,5 @@
 
-# 🚀 ASME Lunabotics 2024 University of Miami – Electrical Subsystem
+# 🚀 ASME Lunabotics 2025 University of Miami – Electrical Subsystem
 
 Welcome to the official repository for the electrical subsystem of the University of Miami’s ASME Lunabotics team for the **2024 NASA Lunabotics Competition**.
 
