@@ -38,7 +38,7 @@ In the design process, we prioritized **simplicity and reliability**, focusing o
 
 ## 🤖The Rover
 <p align="center">
-  <img src="2024-2025/assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
+  <img src="assets/rover/Rover.jpg" alt="Lunabotics Rover 2024" width="600"/>
 </p>
 <p align="center">
   <b>NASA Lunabotics 2024 – Fully Assembled Rover</b><br>
